@@ -1,0 +1,15 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    font-size: 15px;
+}
+.label{
+    color: rgba(0,0, 0, 0.5);
+    font-weight:100;
+}
+.percentage{
+    font-weight:600;
+}

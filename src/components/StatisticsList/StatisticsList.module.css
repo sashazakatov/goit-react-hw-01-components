@@ -1,0 +1,7 @@
+.statisticsList{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#E7ECF2;
+    border-radius: 0px 0px 4px 4px;
+}
