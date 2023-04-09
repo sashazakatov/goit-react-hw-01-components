@@ -1,0 +1,6 @@
+.stats{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    background-color:#E7ECF2;
+}
