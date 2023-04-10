@@ -4,4 +4,20 @@
     width: 100%;
     background-color:#E7ECF2;
     border-radius: 0px 0px 4px 4px;
-} 
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #c9c9c9;
+    font-size: 15px;
+}
+.label{
+    color: #fff;
+    font-weight:100;
+}
+.percentage{
+    color: #fff;
+    font-weight:600;
+}
