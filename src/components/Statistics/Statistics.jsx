@@ -15,5 +15,4 @@ Statistics.propTypes = {
   title: PropTypes.any.isRequired,
   stats: PropTypes.array.isRequired,
 }
-
 export default Statistics;

@@ -18,5 +18,4 @@ Description.propTypes = {
     location: PropTypes.string,
     avatar: PropTypes.string,
 }
-
 export default Description;

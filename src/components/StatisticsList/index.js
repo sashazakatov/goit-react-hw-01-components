@@ -1,1 +1,1 @@
-export {default} from './StatisticsList'
+export {default} from './StatisticsList' 

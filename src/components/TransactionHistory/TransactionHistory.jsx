@@ -34,4 +34,4 @@ TransactionHistory.propTypes = {
         currency: PropTypes.string.isRequired,
     })).isRequired,
 }
-export default TransactionHistory;
+export default TransactionHistory; 
