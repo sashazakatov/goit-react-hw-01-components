@@ -1,5 +1,7 @@
-import Profile from "./Profile";
-import Statistics from "./Statistics";
+import Profile from 'components/Profile';
+import Statistics from 'components/Statistics';
+import FriendList from 'components/FriendList'
+import TransactionHistory from 'components/TransactionHistory'
 import user from 'data/user.json'
 import data from 'data/data'
 import friends from 'data/friends'
@@ -9,8 +11,9 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
+        // height: '100vh',
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
         color: '#010101',
@@ -25,6 +28,8 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Title" stats={data}/>
+      <FriendList friends={friends}/>
+      <TransactionHistory items={transactions}/>
     </div>
   );
 };
