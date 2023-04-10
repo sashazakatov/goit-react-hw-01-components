@@ -7,9 +7,10 @@
     font-size: 15px;
 }
 .label{
-    color: rgba(0,0, 0, 0.5);
+    color: #fff;
     font-weight:100;
 }
 .percentage{
+    color: #fff;
     font-weight:600;
 }
